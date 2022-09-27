@@ -8,8 +8,8 @@ export default function Uses() {
     return (
         <>
             <Meta
-                title='Uses / Irsyad Notes'
-                url={`https://irsyadnotes.com/uses`}
+                title='Uses / Sundawa-Pr'
+                url={`https://sundawa-pr.com/uses`}
             />
             <div className={styles.whiteLayoutWithPaddingY}>
                 <Container>

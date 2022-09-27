@@ -1,5 +1,5 @@
 import Container from '@/components/Container';
-
+import Meta from '@/components/Meta';
 import PageTitle from '@/components/PageTitle';
 import styles from '@/components/styles';
 
@@ -11,6 +11,10 @@ import Image from 'next/image';
 export default function Projects() {
     return (
         <>
+            <Meta
+                title='Products / Sundawa-Pr'
+                url={`https://sundawa-pr.com/uses`}
+            />
             <div className={styles.whiteLayoutWithPaddingY}>
                 <Container>
                     <div>

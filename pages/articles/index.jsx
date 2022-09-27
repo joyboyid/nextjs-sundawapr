@@ -15,8 +15,8 @@ export default function index({ articles }) {
     return (
         <>
             <Meta
-                title='Articles / Irsyad Notes'
-                url={`https://irsyadnotes.com/articles`}
+                title='Articles / Sundawa-Pr'
+                url={`https://sundawa-pr.com/articles`}
             />
             <div className={styles.whiteLayoutWithPaddingY}>
                 <Container>
