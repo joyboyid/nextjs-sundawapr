@@ -6,7 +6,6 @@ import { sync } from 'glob';
 import matter from 'gray-matter';
 import { POSTS_PATH } from '@/libs/helpers';
 import ProjectAtHome from '@/components/ProjectAtHome';
-import Head from 'next/head';
 import PageTitle from '@/components/PageTitle';
 import Container from '@/components/Container';
 import styles from '@/components/styles';
@@ -16,7 +15,7 @@ import Meta from '@/components/Meta';
 import Image from 'next/image';
 
 export default function index() {
-    const lazyRoot = React.useRef(null);
+    // const lazyRoot = React.useRef(null);
     return (
         <>
             <Meta title='Sundawa-Pr' url={`https://www.sundawa-pr.com`} />
@@ -31,9 +30,9 @@ export default function index() {
                         id='articles'
                         className='flex flex-col gap-6 lg:flex-row lg:gap-10'
                     >
-                        <div ref={lazyRoot}>
+                        <div>
                             <Image
-                                lazyRoot={lazyRoot}
+                                // lazyRoot={lazyRoot}
                                 src='/images/produk/5.JPG'
                                 width='600'
                                 height='400'

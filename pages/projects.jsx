@@ -1,12 +1,11 @@
 import Container from '@/components/Container';
 import Meta from '@/components/Meta';
-import PageTitle from '@/components/PageTitle';
+// import PageTitle from '@/components/PageTitle';
 import styles from '@/components/styles';
 
 import React, { Component } from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
-import Image from 'next/image';
 
 export default function Projects() {
     return (
