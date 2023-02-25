@@ -19,9 +19,10 @@ export default function Navbar() {
             </Link>
             <ul className='flex items-center rounded-full bg-white shadow dark:bg-gray-700/50'>
                 <NavLink href='/about' value='About' />
-                <NavLink href='/articles' value='Articles' />
+                {/* <NavLink href='/articles' value='Articles' /> */}
                 <NavLink href='/projects' value='Products' />
-                <NavLink href='/uses' value='Uses' />
+                {/* <NavLink href='/uses' value='Uses' /> */}
+                <NavLink href='/maps' value='Maps' />
             </ul>
             <div className='ml-2'>
                 <ThemeSwitcher />

@@ -75,11 +75,7 @@ export default function index() {
                     <div class='mt-5'>
                         <section className='prose dark:prose-invert lg:prose-lg'>
                             <p>
-                                I get asked a lot about the things I use to
-                                build software, stay productive, or buy to fool
-                                myself into thinking I’m being productive when
-                                I’m really just procrastinating. Here’s a big
-                                list of all of my favorite stuff.
+                               We trying Products of Sundawa-Pr
                             </p>
                         </section>
                     </div>
